@@ -1,0 +1,11 @@
+{
+    "name": "todo_app",
+    "version": 2,
+    "builds": [{
+        "src": "*py",
+        "use": "@vercel/python" 
+    }],
+    "routes": [
+        { "src": "(.*)", "dest": "app.py" }
+    ]
+}
