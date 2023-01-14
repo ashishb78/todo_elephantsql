@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 
+
 app= Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://vccffvhx:1inM8qtMkzRfosg5xmopUvRB5dbdKvs8@tiny.db.elephantsql.com/vccffvhx'
 db = SQLAlchemy(app)
